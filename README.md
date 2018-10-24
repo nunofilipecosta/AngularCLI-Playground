@@ -37,3 +37,5 @@
 - `ng g cl models/customer`
 - `ng g i models/person`
 - `ng g e models/gender`
+- `ng g p shared/init-caps`
+- `ng g p shared/init-caps -m app.module`
