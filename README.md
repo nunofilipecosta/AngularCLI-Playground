@@ -24,10 +24,12 @@
 - `ng generate class customer-model --dryRun`
 - `ng g c customer --dryRun`
 
-### options
-
-| `--flat` | -t |
-| `--dryRun` | -d |
+> ### options
+>
+> | Header 1   | Header 2 |
+> | ---------- | -------- |
+> | `--flat`   | -t       |
+> | `--dryRun` | -d       |
 
 - `ng g c pet -tsd`
 - `ng g c customer`
@@ -39,3 +41,6 @@
 - `ng g e models/gender`
 - `ng g p shared/init-caps`
 - `ng g p shared/init-caps -m app.module`
+
+- `ng g m login --spec false -m app.module`
+- `ng g c login/loggingin` *updates login.module because it's the one closests*
