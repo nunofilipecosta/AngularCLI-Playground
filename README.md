@@ -34,3 +34,6 @@
 - `ng g c orders -v Emulated -c OnPush`
 - `ng g d search-box --flat false`
 - `ng g s sales-data --flat false`
+- `ng g cl models/customer`
+- `ng g i models/person`
+- `ng g e models/gender`
