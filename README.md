@@ -33,3 +33,4 @@
 - `ng g c customer`
 - `ng g c orders -v Emulated -c OnPush`
 - `ng g d search-box --flat false`
+- `ng g s sales-data --flat false`
