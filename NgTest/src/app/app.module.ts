@@ -9,6 +9,7 @@ import { SearchBoxDirective } from './search-box/search-box.directive';
 import { InitCapsPipe } from './shared/init-caps.pipe';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AdminModule } from './admin/admin.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { AdminModule } from './admin/admin.module';
     InitCapsPipe,
     DashboardComponent
   ],
-  imports: [BrowserModule, AppRoutingModule, AdminModule],
+  imports: [BrowserModule, AppRoutingModule, AdminModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent]
 })

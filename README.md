@@ -69,3 +69,10 @@ npx source-map-explorer dist/NgTest/stats.json
 ## ng serve
 
 - `ng serve -o --port 5000 --live-reload false --ssl`
+
+## ng add package (v6)
+
+- `ng add @angular/material`
+- `ng g @angular/material:material-nav --name nav`
+- `ng g @angular/material:material-dashboard --name dashboard`
+- `ng g @angular/material:material-table --name customer-list`
