@@ -17,7 +17,7 @@
 - `ng lint NgTest --format stylish`
 - `ng lint --fix`
 
-## generate
+## ng generate
 
 - `ng generate component customer --dryRun`
 - `ng generate service customer-data --dryRun`
@@ -43,4 +43,8 @@
 - `ng g p shared/init-caps -m app.module`
 
 - `ng g m login --spec false -m app.module`
-- `ng g c login/loggingin` *updates login.module because it's the one closests*
+- `ng g c login/loggingin` _updates login.module because it's the one closests_
+
+## ng routing
+
+- `ng g m admin --routing --spec false -d`
