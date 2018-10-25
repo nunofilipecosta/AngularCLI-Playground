@@ -76,3 +76,8 @@ npx source-map-explorer dist/NgTest/stats.json
 - `ng g @angular/material:material-nav --name nav`
 - `ng g @angular/material:material-dashboard --name dashboard`
 - `ng g @angular/material:material-table --name customer-list`
+
+## ng test
+
+- `ng test --watch false --progress false --sourcemaps false`
+- `ng test --code-coverage`
