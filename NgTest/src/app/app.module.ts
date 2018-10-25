@@ -7,8 +7,8 @@ import { CustomerComponent } from './customer/customer.component';
 import { OrdersComponent } from './orders/orders.component';
 import { SearchBoxDirective } from './search-box/search-box.directive';
 import { InitCapsPipe } from './shared/init-caps.pipe';
-import { LoginModule } from './login/login.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -19,12 +19,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     InitCapsPipe,
     DashboardComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    LoginModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, AdminModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

@@ -47,4 +47,4 @@
 
 ## ng routing
 
-- `ng g m admin --routing --spec false -d`
+- `ng g m admin --routing --spec false -m app.module -d`
