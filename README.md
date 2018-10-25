@@ -81,3 +81,7 @@ npx source-map-explorer dist/NgTest/stats.json
 
 - `ng test --watch false --progress false --sourcemaps false`
 - `ng test --code-coverage`
+
+## ng e2e
+
+- `ng e2e`
