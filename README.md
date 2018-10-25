@@ -48,3 +48,20 @@
 ## ng routing
 
 - `ng g m admin --routing --spec false -m app.module -d`
+
+## ng build
+
+```bash
+npm install webpack-bundle-analyser --save-dev
+ng build --stats-json
+npx webpack-bundle-analyser dist/NgTest/stats.json
+```
+
+```bash
+npm install source-map-explorer --save-dev
+ng build --stats-json
+npx source-map-explorer dist/NgTest/stats.json
+```
+
+- `ng build --aot --stats-json`
+- `ng build --prod --stats-json`
