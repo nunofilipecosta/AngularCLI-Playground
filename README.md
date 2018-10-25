@@ -65,3 +65,7 @@ npx source-map-explorer dist/NgTest/stats.json
 
 - `ng build --aot --stats-json`
 - `ng build --prod --stats-json`
+
+## ng serve
+
+- `ng serve -o --port 5000 --live-reload false --ssl`
