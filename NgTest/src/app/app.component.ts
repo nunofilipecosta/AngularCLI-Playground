@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NcLoggerService } from 'nc-logger';
 
 const num = 7;
 
@@ -9,4 +10,11 @@ const num = 7;
 })
 export class AppComponent {
   title = 'NgTest';
+
+  /**
+   *
+   */
+  constructor(logger: NcLoggerService) {
+    logger.log('Hello World');
+  }
 }

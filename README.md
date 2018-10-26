@@ -92,3 +92,9 @@ npx source-map-explorer dist/NgTest/stats.json
 - `npm install -g @angular/cli`
 - `npm install @angular/cli`
 - `ng update`
+
+## ng generate library
+
+- `ng g library nc-logger`
+- `ng g s logger --project nc-logger`
+- `ng build --project nc-logger --prod` :warning:
