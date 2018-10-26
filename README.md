@@ -85,3 +85,10 @@ npx source-map-explorer dist/NgTest/stats.json
 ## ng e2e
 
 - `ng e2e`
+
+## ng update : [Angular Update](https://update.angular.io)
+
+- `ng update --all --force -d`
+- `npm install -g @angular/cli`
+- `npm install @angular/cli`
+- `ng update`
